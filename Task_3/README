@@ -1,0 +1,9 @@
+Task #3
+Create new module for Odoo 16.
+Create new object demo.demo with field name(char type).
+Add separate menu, tree and form views
+
+To run a new module, create a "custom_addons" directory in the root directory
+"odoo" project and copy "demo_module" into it.
+Add "custom_addons" to the "addons_pass" variable in the "odoo.config" file
+and restart the "odoo" server.
